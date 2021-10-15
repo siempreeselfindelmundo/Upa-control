@@ -1,0 +1,16 @@
+{
+  "name": "upa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/style.css -o public/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/forms": "^0.3.3",
+    "aos": "^2.3.4",
+    "tailwindcss": "^2.2.15"
+  }
+}

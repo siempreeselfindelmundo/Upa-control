@@ -1,0 +1,23 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn-primary {
+    @apply rounded-full py-2 px-4 text-white  bg-gradient-to-b from-secondary to-primary hover:from-third hover:to-fourth hover:shadow-lg hover:-translate-y-0.5 transform transition-all 
+}
+
+.btn-secondary {
+    @apply rounded-full py-2 px-4 text-white font-bold bg-gradient-to-b from-third to-fourth hover:from-secondary hover:to-primary hover:shadow-lg hover:-translate-y-0.5 transform transition-all
+
+}
+
+.form-input {
+    @apply rounded-full bg-form text-black border-0 h-8 focus:border-third focus:ring-third
+}
+
+.activeLink{
+    @apply border-b-2 border-secondary
+}
